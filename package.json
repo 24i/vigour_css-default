@@ -5,7 +5,7 @@
   "main": "lib/index.css",
   "scripts": {
     "test": "stylelint **/**/*.css -i .gitignore",
-    "watch": "budo ./test/index.js:bundle.js -d ./test --css test/bundle.css --pushstate --live",
+    "dev": "budo ./test/index.js:bundle.js -d ./test --css test/bundle.css --pushstate --live",
     "browserstack": "browserify node_modules/browserstack-tape-reporter test -o test/bundle.js && cd test && browserstack-runner | tap-difflet"
   },
   "repository": {
