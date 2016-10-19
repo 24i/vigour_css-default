@@ -1,5 +1,5 @@
 {
-  "name": "@vigour-io/play-css-reset",
+  "name": "@vigour-io/css-reset",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.css",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vigour-io/play-css-reset.git"
+    "url": "git+https://github.com/vigour-io/css-reset.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vigour-io/play-css-reset/issues"
+    "url": "https://github.com/vigour-io/css-reset/issues"
   },
   "dependencies": {
     "postcssify": "^2.1.1"
@@ -34,7 +34,7 @@
   "contributors": [
     "Youri Daamen <youri@vigour.io>"
   ],
-  "homepage": "https://github.com/vigour-io/play-css-reset#readme",
+  "homepage": "https://github.com/vigour-io/css-reset#readme",
   "browserify": {
     "transform": [
       "postcssify"
