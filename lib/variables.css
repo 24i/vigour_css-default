@@ -1,0 +1,13 @@
+:root {
+  --border-width-a: 5px;
+  --radius-a: 2px;
+  --radius-b: 6px;
+  --spacing-a: 15px;
+  --spacing-b: 5px;
+  --spacing-c: 60px;
+}
+
+@custom-media --tablet (width > 425px);
+@custom-media --laptop (width > 768px);
+@custom-media --laptop-l (width > 1024px);
+@custom-media --4k (width > 1440px);
