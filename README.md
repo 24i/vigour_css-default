@@ -1,2 +1,2 @@
-# play-css-reset
+# css-default
 CSS reset for vigour apps
