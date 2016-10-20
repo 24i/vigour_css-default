@@ -1,2 +1,2 @@
 # css-default
-CSS reset for vigour apps
+Minimal CSS reset for vigour apps
