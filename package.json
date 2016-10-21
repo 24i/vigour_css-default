@@ -1,7 +1,7 @@
 {
   "name": "@vigour-io/css-default",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal CSS reset for Vigour apps",
   "main": "lib/index.js",
   "scripts": {
     "test": "stylelint **/*.css -i .gitignore",
@@ -17,7 +17,7 @@
     "url": "https://github.com/vigour-io/css-default/issues"
   },
   "dependencies": {
-    "postcssify": "^2.6.1"
+    "postcssify": "^2.6.2"
   },
   "devDependencies": {
     "stylelint-config-standard": "^13.0.2",

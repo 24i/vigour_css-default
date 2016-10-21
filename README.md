@@ -1,2 +1,16 @@
 # css-default
-Minimal CSS reset for vigour apps
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+Minimal CSS reset for Vigour apps
+
+## Getting started
+
+### Install it:
+```shell
+npm i @vigour-io/css-default --save
+```
+
+### Require it:
+```js
+require('@vigour-io/css-default')
+```
