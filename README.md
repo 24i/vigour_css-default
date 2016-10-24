@@ -17,3 +17,44 @@ npm i @vigour-io/css-default --save
 ```js
 require('@vigour-io/css-default')
 ```
+
+### Use it:
+```css
+/* CSS */
+
+.box {
+  border: var(--border-width-a) solid black;
+  border-radius: var(--radius-a);
+  padding-bottom: var(--spacing-b);
+}
+
+@media (--tablet) {
+  .box {
+    border-radius: var(--radius-b);
+    padding-bottom: var(--spacing-a);
+  }
+}
+```
+
+## Available variables:
+
+```
+:root {
+  --border-width-a: 5px;
+  --radius-a: 2px;
+  --radius-b: 6px;
+  --spacing-a: 15px;
+  --spacing-b: 5px;
+  --spacing-c: 60px;
+}
+```
+
+## Available media queries:
+
+```
+@custom-media --tablet (width > 425px);
+@custom-media --laptop (width > 768px);
+@custom-media --laptop-l (width > 1024px);
+@custom-media --4k (width > 1440px);
+
+```
