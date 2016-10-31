@@ -4,7 +4,7 @@
   "description": "Minimal CSS reset for Vigour apps",
   "main": "lib/index.js",
   "scripts": {
-    "test": "stylelint **/*.css -i .gitignore",
+    "test": "stylelint '**/*.css' -i .gitignore",
     "dev": "TYPE=$npm_config_type && TYPE=${TYPE:-main} && budo ./test/$TYPE/index.js:bundle.js -d ./test/$TYPE --css test/$TYPE/bundle.css --live"
   },
   "repository": {
