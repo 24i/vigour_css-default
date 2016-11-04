@@ -6,7 +6,8 @@ const test = require('./fn')
 
 const app = {
   title: {
-    tag: 'h1'
+    tag: 'h1',
+    text: 'test title'
   }
 }
 
